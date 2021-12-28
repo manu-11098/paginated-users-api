@@ -4,6 +4,6 @@ import users from './users.routes'
 
 const routes = Router();
 
-routes.use('/personas', users)
+routes.use('/users', users)
 
 export default routes;
